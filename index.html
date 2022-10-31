@@ -1,87 +1,100 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
-      <title>Редактор Андрей Кравченко</title>
-    </head>
-    <body>
-                     
-       
-      <style>
-  body {
-       padding: 3% 6%;
-    line-height: 25px;
-  margin-top: 70px;
-  margin-bottom: 20px; 
-  }
-  
-        .url {
-  color: #295E9A;
-}
-        
-  .row {
+      
+     
    
-    display: flex;
-      flex-direction: row;
-       justify-content: flex-start;
-       flex-wrap: nowrap;
-  }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Редактор Андрей Кравченко</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
 
-  .col-1,
-  .col-2,
-  .col-3,
-  .col-4 {
-     flex-grow: 0;
-      flex-shrink: 0;
-
-    box-sizing: border-box;
-    padding-right: 20px;
-  }
-
-  .col-1 {
-      flex-basis: 25%;
-    max-width: 25%;
-  }
-
-  .col-2 {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-
-  .col-3 {
-    flex-basis: 75%;
-    max-width: 75%;
-  }
-
-  .col-4 {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-</style>
   
-<style>
-  body {
+
+
+      <style>
+  
+  
+   body {
+       padding: 3% 6%;
+  
     font-family: Roboto, serif;
     font-size: 19px;
     line-height: 27px;
   }
-
-  h3 {
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 27px;
+  
+  
+        .url {
+  color: #295E9A;
+          text-decoration: none;
+           border-color: #53cfb6;
+        
+}
+            .outline {
+    border: 3px solid #FFFFF0;
+    padding: 10 10px;
+   background-color: #FFFFF0;
+   }
+        
+        
+  .row {
+   
+    display: flex;
+    flex-direction: row;
+   margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;}
     
   }
 
-  p {
-    margin: 0 0 .88em 0;
-  }
+            
+        h1 {
+ 				display: block;
+			font-family: Verdana;
+			font-size: 34px;
+			font-style: normal;
+			font-weight: bold;
+			line-height: 125%;
+			letter-spacing: normal;
+			margin: 0;
+			text-align: left;}
+
+h2 {
+  	display: block;
+			font-family: 'Helvetica Neue', 'Helvetica', Arial, PT Sans, sans-serif;
+			font-size: 34px;
+			font-style: normal;
+			font-weight: bold;
+			line-height: 125%;
+			letter-spacing: normal;
+			margin: 0;
+			text-align: left;}
+
+h3 {
+  font-size: 135%;
+  margin-bottom: 0;
+  padding-bottom: 0.15rem;;
+  padding-top: 0.7rem;}
+        
+        
+        
+  p {      
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  line-height: 1.5rem;
+  padding-top: 0.1rem;}
+        
+        }
 
   img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 2em;
+   max-width: 100%;
+   padding-bottom: 0rem;;
+  padding-top: 1rem;
+  padding-left: 0rem;
+  padding-right: 1rem;}
   }
   
   .col-1 {
@@ -93,113 +106,204 @@
     line-height: 18px;
   }
   
-  .col-1 p {
-    /*
-    * Выравниваем по строчным
-    * основного текста.
-    */
-    margin-top: .25em;
-  }
-</style>
-  
-</head>
 
-  <body>  
-    
-    
-    <div class="row">
-    <div class="col-4">
-      <h3>Андрей Кравченко — редактор, копирайтер, автор текстов</h3>
+        
+        
+          @media (min-width: 600px) {
+    .foto {-ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;}
+    .privet {-ms-flex: 0 0 40%;
+      flex: 0 0 40%;
+      max-width: 40%;}}
+
+ @media (max-width: 600px) {
+    .foto {-ms-flex: 0 0 100%;
+       flex: 0 0 100%;
+       max-width: 100%;}
+   .privet {-ms-flex: 0 0 80%;
+       flex: 0 0 80%;
+      max-width: 80%;}}
+        
+        </style>
+  
+  
+  
+  </head>
+      
+    <body>
+                     
+        <div class="container">  
+     <div class="row" style="padding-left: 0; padding-right: 0;" >
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+     <a> <img src="https://i.ibb.co/HHSDzps/2022-09-11-11-04-17.png" width=80% alt="Редактор Андрей Кравченко"> </a>
+        </div>
+   
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">    
+      
+         <h2>Редактор и автор текстов Андрей Кравченко</h2> 
+          <p> Пишу тексты для сайтов, промостраниц и рассылок, создаю кейсы и посты для соцсетей. В инфостиле, с пользой и в мире читателя. </p>  
+</div>
     </div>
-  </div>
+      </div>
+   
+  
     
-   <div class="row">
-    <div class="col-2">
-      <p>
-        <a href="https://ibb.co/M8m2tzH"><img src="https://i.ibb.co/9w781x0/image.png" alt="Редактор Андрей Кравченко" border="0"></a>
-         </div>
- 
-  
-  
-    <div class="col-2">
-      <p>
-        Пишу тексты для сайтов, промостраниц, соцсетей и рассылок:<br><br>
-           <b>Тексты для лендингов.</b> Обсуждаем полезное действие, обговариваем детали, после этого я собираю вводные данные и создаю текст.<br>
+      
+      <div class="container">   
+ <div class=row>
+     <div class ="col-xs-12 col-sm-12 col-md-11 col-lg-9">
+           
+                
+           <b>Тексты для лендингов.</b> Обсуждаем полезное действие, обговариваем детали, после этого я собираю вводные данные и создаю текст.
           </p>
-          <p><b>Статьи для блогов.</b> Пишу и редактирую тексты для корпоративных блогов и порталов вроде VC.RU.<br></p>
-            <p><b>Тексты для курсов и вебинаров.</b> Создаю и корректирую тексты для обучающих материалов.<br></p>
-              <p><b>Пресс-релизы.</b> Расскажу о событиях, которые произошли в вашей компании — без канцелярита, штампов и прочего мусора.<br></p>
+          <p><b>Статьи для блогов.</b> Пишу и редактирую тексты для корпоративных блогов и порталов вроде VC.RU.</p>
+            <p><b>Тексты для курсов и вебинаров.</b> Создаю и корректирую тексты для обучающих материалов.</p>
+              <p><b>Пресс-релизы.</b> Расскажу о событиях, которые произошли в вашей компании — без канцелярита, штампов и прочего мусора.</p>
               
     </div>
- 
+  </div>
 </div>
     
-    
+
+<div class="container">
+  <div class="row" padding-bottom: 1.5rem;">
+    <div class ="col-xs-12 col-sm-12 col-md-11 col-lg-9">
+      <h3>Примеры работ</h3>  
+
+ </div>
+  </div>
+</div>
  
-      <h3>Примеры работ</h3>
- 
- 
+  <div class="container">                                                      
   <div class="row">
-    <div class="col-2">
-      <p>
-        <a href="https://loymax.ru/blog/potrebitelskoe-povedenie-i-ego-vliyanie-na-reklamnye-akcii/" class="url"><b> Статья «Миллениалы против бумеров».</b></a> Потенциальные читатели — действующие и потенциальные заказчики компании Loymax. В статье, которая вышла в корпоративном блоге, рассказываем об отличиях в потребительском поведении миллениалов и бумеров и даем рекомендации, которые клиенты могут применить в своих программах лояльности.
+ 
+                  
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <img src="https://i.ibb.co/v1Zk5sW/1.png" width=300 height=150>
+<h3>Статьи для блога IT-компании Loymax</h3>                                                       
+                      <p><b>Задача:</b> запустить регулярные публикации в блоге, подчеркнуть экспертность компании, продвинуть сайт в поисковых системах.</p>
+            <p><b>Решение:</b></p>
+         
+                                                                       <p>
+              <a href="https://loymax.ru/blog/potrebitelskoe-povedenie-i-ego-vliyanie-na-reklamnye-akcii/" class="url"> <b>Статья «Миллениалы против бумеров».</b></a> Целевая аудитория статьи — действующие и потенциальные заказчики компании. В ней мы рассказываем об отличиях в потребительском поведении миллениалов и бумеров и даём рекомендации, которые клиенты смогут применить в своих программах лояльности. </p>
+                                                                     
+            <p>  <a href="https://loymax.ru/blog/chego-pokupateli-ozhidayut-ot-programmy-loyalnosti" class="url"> <b>Статья «Чего покупатели ожидают от программы лояльности».</b></a> Статья для потенциальных и действующих заказчиков. Её полезное действие — дать компаниям рекомендации, которые помогут сохранять заинтересованность клиентов. </p>
         
-      </p>
-    </div>
-    
-  
-    <div class="col-2">
-      <p>
-  <a href="https://vc.ru/services/389918-importozameshchenie-chto-mozhno-sdelat-s-zapretom-na-dopusk-inostrannogo-po-i-uhodom-s-rynka-zarubezhnogo-softa" class="url"><b>Статья «Импортозамещение: что можно сделать с запретом на допуск иностранного ПО и уходом с рынка зарубежного софта».</b></a> Статья для блога продуктовой IT-компании на VC.RU. Нужно было рассказать читателям о пользе, которую они могут получить с помощью сервиса «Пассворк».
-    
-    
-  </div>
-   </div>
-   
-  
-   <div class="row">
-    <div class="col-2">
-      <p>
-  <a href="https://userstory.ru/cases/premia" class="url"><b>Кейс о создании омниканальной системы для крупной торговой сети.</b></a> Проработали прототип и написали интересный текст. История о том, как в агентстве Userstory разработали комплексную систему для программы лояльности торговой сети. Вместе с отделом маркетинга упаковали это в кейс и создали лендинг.
-  
+      <p style="margin-bottom: 30px;"> <a href="https://loymax.ru/blog/kakie-oshibki-meshayut-kompaniyam-sdelat-programmu-loyalnosti-uspeshnoj" class="url"> <b>Статья «Какие ошибки мешают компаниям сделать программу лояльности успешной».</b></a> Статья для клиентов компании, которая поможет разобраться с типичными ошибками и повысить бизнес-показатели.</p>
+                                                                                                                              
+                                                                                                                              
+                                                                                                                              
+
+    </div>                                   
+
+ <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <img src="https://i.ibb.co/ysg6cnR/photo-2022-03-05-13-16-26.jpg" width=150 height=150>
+<h3>Кейсы для диджитал-агентства Userstory</h3>                                                       
+                      <p><b>Задача:</b> показать экспертность компании, подсветить результаты, которых удалось добиться клиентам.</p>
+            <p><b>Решение:</b></p>
+            <p>
+              <a href="https://userstory.ru/cases/premia" class="url"> <b>Кейс о создании омниканальной системы для крупной торговой сети.</b></a> История о том, как в агентстве Userstory разработали комплексную систему для программы лояльности торговой сети. Вместе с маркетологами компании упаковали это в кейс и создали лендинг. </p>
+                                                                     
+            <p>  <a href="https://userstory.ru/cases/pharmaimpex" class="url"> <b>Кейс о разработке электронной коммерции для федеральной аптечной сети.</b></a> Для создания кейса провели интервью с разработчиками, проджектом компании и заказчиками. Собрали всё это в текст и создали лендинг. </p>
+        
+      <p> <a href="https://userstory.ru/cases/lte" class="url"> <b>Кейс о создании цифровой платформы для проведения обучающих онлайн-тренингов.</b></a> Мои задачи — интервью с разбработчиками и клиентами, редактура текста, работа с прототипом сайта, корректировки, сбор иллюстраций.</p>
+
     </div> 
-
-     
-    <div class="col-2">
-      <p>
-  <a href="https://www.sports.ru/tribuna/blogs/siteratings/3017982.html" class="url"><b>Аналитический обзор для сайта sports.ru.</b> </a> Создание статьи на сайт Sports.ru — «Рейтинг удобства клубных сайтов РПЛ и ФНЛ: на первом месте «Урал», на последнем — «Ахмат». Необходимо было представить результат исследования аналитиков в удобном для читателей виде — простым и понятным языком и дополнить визуалом.
-  
-  </div>
-   </div>
-
-     
-  
-   <div class="row">
-    <div class="col-4">
-      <h3>Контакты</h3>
-    </div>
-  </div>
-  
-  
-       <div class="row">
-    <div class="col-2">
-                        <p> <b>Телефон</b>: <a href="tel: +79832332615" class="url">+7 (983) 233-26-15</a><br>
-                      <b>Почта</b>: <a href="mailto: andreykravchenko1990@yandex.ru" class="url">andreykravchenko1990@yandex.ru</a><br>
-                      <b>Телеграм</b>: <a href="https://t.me/andrey_krav4enko" class="url">@andrey_krav4enko</a><br>
-<p>
-                        </div>
+</div> 
+   </div> 
+                  
+                                                              
+                                                              
+ <div class="container">                                                      
+  <div class="row">
+ 
+  <div class ="col-xs-12 col-sm-12 col-md-4 col-lg-4"> 
+ 
+  <img src="https://i.ibb.co/W2QzJ24/photo-effects-progif-ru.png" width=100%>
+      </div>
+    
+                                                                         
+      <div class ="col-xs-12 col-sm-12 col-md-8 col-lg-6">                                                                    
+   <a href="https://editorswork.github.io/" class="url">
+   <h3> Статья «Как не развестись в первый год совместной жизни»</h3></a>
+<p style="margin-bottom: 60px;">Курсовая в рамках обучения на первой ступени Школы редакторов Бюро Горбунова. Для статьи нужно было собрать материал, взять интервью у эксперта, подобрать иллюстрации и сверстать страницу в HTML.</p>
+                               
+         </div>                      
+          </div>  
          </div>
-          
+                               
+                               
+<div class="container">                                                      
+  <div class="row">
+  <div class ="col-xs-12 col-sm-12 col-md-8 col-lg-6"> 
+ <a href="https://vc.ru/services/389918-importozameshchenie-chto-mozhno-sdelat-s-zapretom-na-dopusk-inostrannogo-po-i-uhodom-s-rynka-zarubezhnogo-softa" class="url">
+  <h3>Статья «Импортозамещение: что можно сделать с запретом на допуск иностранного ПО и уходом с рынка зарубежного софта»</h3></a>
+  <p style="margin-bottom: 60px;">Статья для блога продуктовой IT-компании на VC.RU. Нужно было рассказать читателям о пользе, которую они могут получить с помощью сервиса «Пассворк».</p>
+    
+      </div>
+
+      <div class ="col-xs-12 col-sm-12 col-md-4 col-lg-4">                         
+ <p style="margin-bottom: 60px;">  
+   <img src="https://i.ibb.co/kSt60Qp/passwork.png"  width=100%>   </p>                             
+        
+    </div>                         
+                                 
+         <!--                       
+       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <img src="https://i.ibb.co/y4hRPs1/facebook-app-logo-sports.png" width=100% height=150> 
+
+  <a href="https://www.sports.ru/tribuna/blogs/siteratings/3017982.html" class="url"> 
+ <h3><b>Аналитический обзор для сайта sports.ru</b></h3> </a> Создание статьи на сайт Sports.ru — «Рейтинг удобства клубных сайтов РПЛ и ФНЛ: на первом месте «Урал», на последнем — «Ахмат». Необходимо было представить результат исследования аналитиков в удобном для читателей виде — простым и понятным языком и дополнить визуалом.
+  
+  </div>                           
+                                 
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <img src="https://i.ibb.co/v1Zk5sW/1.png" width=100% height=150>
+<h3>Статьи для блога IT-компании Loymax</h3>                                                       
+                      <p><b>Задача:</b> запустить регулярные публикации в блоге, подчеркнуть экспертность компании, продвинуть сайт в поисковых системах.</p>
+            <p><b>Решение:</b></p>
+         
+       <p><a href="https://loymax.ru/blog/potrebitelskoe-povedenie-i-ego-vliyanie-na-reklamnye-akcii/" class="url"> <b>Статья «Миллениалы против бумеров».</b></a> Целевая аудитория статьи — действующие и потенциальные заказчики компании. В ней мы рассказываем об отличиях в потребительском поведении миллениалов и бумеров и даём рекомендации, которые клиенты смогут применить в своих программах лояльности. </p>
+                                                                     
+            <p>  <a href="https://loymax.ru/blog/chego-pokupateli-ozhidayut-ot-programmy-loyalnosti" class="url"> <b>Статья «Чего покупатели ожидают от программы лояльности».</b></a> Статья для потенциальных и действующих заказчиков. Её полезное действие — дать компаниям рекомендации, которые помогут сохранять заинтересованность клиентов. </p>
+        
+      <p> <a href="https://loymax.ru/blog/kakie-oshibki-meshayut-kompaniyam-sdelat-programmu-loyalnosti-uspeshnoj" class="url"> <b>Статья «Какие ошибки мешают компаниям сделать программу лояльности успешной».</b></a> Статья для клиентов компании, которая поможет разобраться с типичными ошибками и повысить бизнес-показатели.</p>
+
+    </div>                                   
+
+ <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <img src="https://i.ibb.co/ysg6cnR/photo-2022-03-05-13-16-26.jpg" width=150 height=150>
+<h3>Кейсы для диджитал-агентства Userstory</h3>                                                       
+                      <p><b>Задача:</b> показать экспертность компании, подсветить результаты, которых удалось добиться клиентам.</p>
+            <p><b>Решение:</b></p>
+            <p>
+              <a href="https://userstory.ru/cases/premia" class="url"> <b>Кейс о создании омниканальной системы для крупной торговой сети.</b></a> История о том, как в агентстве Userstory разработали комплексную систему для программы лояльности торговой сети. Вместе с маркетологами компании упаковали это в кейс и создали лендинг. </p>
+                                                                     
+            <p>  <a href="https://userstory.ru/cases/pharmaimpex" class="url"> <b>Кейс о разработке электронной коммерции для федеральной аптечной сети.</b></a> Для создания кейса провели интервью с разработчиками, проджектом компании и заказчиками. Собрали всё это в текст и создали лендинг. </p>
+        
+      <p> <a href="https://userstory.ru/cases/lte" class="url"> <b>Кейс о создании цифровой платформы для проведения обучающих онлайн-тренингов.</b></a> Мои задачи — интервью с разбработчиками и клиентами, редактура текста, работа с прототипом сайта, корректировки, сбор иллюстраций.</p> -->
+
+    </div> 
+      </div>
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+  <div class="outline">
+   <h3>Контакты</h3> 
+   <p style="margin-bottom: 30px;"> Чтобы обсудить детали, напишите мне на<a href="andreykravchenko1990@yandex.ru"> andreykravchenko1990@yandex.ru</a> или <a href="https://t.me/andrey_krav4enko">в телеграм</a>. </p>
+     
+    
+ 
+    </div>                         
+
+
+© Андрей Кравченко, 2022
+
+  
+  
+   
   </body>
       
-                               
-
-<section>
-© Андрей Кравченко, 2022
-</section>
-    </body>
-   
-  <style>
-  
-
 </html>
